@@ -14,13 +14,13 @@
             <fieldset class="form__input-container">
                 <div class="form__field form__field_place_code">
                     <label for="code-input" class="form__label">Code from SMS</label>
-                    <input type="text" class="form__item" name="code" required placeholder="Code from SMS" id="code-input">
-                    <span class="form__item-error" id="password-input-error"></span>
+                    <input type="text" class="form__item" name="code" required placeholder="Code from SMS" id="code-input" pattern="123456">
+                    <span class="form__item-error" id="code-input-error"></span>
                 </div>
             </fieldset>
-            <button type="submit" class="form__submit"></button>
+            <button type="submit" class="form__submit" onclick="location.href='/cards.html'"></button>
         </form>
     </section>
-    <script src=""></script>
+    <script type="module" src="/scripts/code.js"></script>
 </body>
 </html>

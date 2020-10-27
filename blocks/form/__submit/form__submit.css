@@ -9,9 +9,18 @@
     height: 96px;
     margin: auto;
     display: block;
-
+    animation: rotation 20s linear infinite;
 }
 
 .form__submit:hover {
     opacity: .5;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }

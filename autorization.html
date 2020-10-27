@@ -14,18 +14,18 @@
             <fieldset class="form__input-container">
                 <div class="form__field">
                     <label for="login-input" class="form__label">Login</label>
-                    <input type="text" class="form__item" name="login" required placeholder="Login" id="login-input">
+                    <input type="text" class="form__item" name="login" required placeholder="Login" id="login-input" pattern="kode@kode.ru">
                     <span class="form__item-error" id="login-input-error"></span>
                 </div>
                 <div class="form__field">
                     <label for="password-input" class="form__label">Password</label>
-                    <input type="password" class="form__item" name="password" required placeholder="Password" id="password-input">
+                    <input type="password" class="form__item" name="password" required placeholder="Password" id="password-input" pattern="Enk0deng">
                     <span class="form__item-error" id="password-input-error"></span>
                 </div>
             </fieldset>
-            <button type="submit" class="form__submit"></button>
+            <button type="submit" class="form__submit" onclick="location.href='/code.html'"></button>
         </form>
     </section>
-    <script src=""></script>
+    <script type="module" src="/scripts/autorization.js"></script>
 </body>
 </html>
