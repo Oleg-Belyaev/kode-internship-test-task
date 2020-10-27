@@ -4,3 +4,17 @@
     background-color: #c4c4c4;
     margin: 0 34px 61px 0;
 }
+
+@media screen and (max-width: 650px) {
+    .content__image {
+        width: 438px;
+        height: 304px;
+    } 
+}
+
+@media screen and (max-width: 450px) {
+    .content__image {
+        width: 304px;
+        height: 211px;
+    } 
+}

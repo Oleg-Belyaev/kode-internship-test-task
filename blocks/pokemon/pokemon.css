@@ -2,3 +2,11 @@
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 600px) {
+    .pokemon {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    } 
+}

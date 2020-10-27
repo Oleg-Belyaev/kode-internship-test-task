@@ -2,3 +2,10 @@
     padding-bottom: 50px;
     border-bottom: 1px solid #dbdbdb;
 }
+
+@media screen and (max-width: 600px) {
+    .pokemon__main-information {
+        padding: 0;
+        margin-left: 20px;
+    }
+}

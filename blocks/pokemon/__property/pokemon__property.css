@@ -1,3 +1,9 @@
 .pokemon__property {
     margin-top: 50px;
 }
+
+@media screen and (max-width: 600px) {
+    .pokemon__property {
+        margin: 0 20px 0 0;
+    }
+}
