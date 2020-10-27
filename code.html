@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Приложение о покемонах">
+    <meta name="author" content="Олег Беляев">
+    <title>Подтверждение пароля</title>
+    <link rel="stylesheet" href="./pages/code.css">
+</head>
+<body>
+    <section class="form">
+        <form class="form__element" name="password" novalidate>
+            <fieldset class="form__input-container">
+                <div class="form__field form__field_place_code">
+                    <label for="code-input" class="form__label">Code from SMS</label>
+                    <input type="text" class="form__item" name="code" required placeholder="Code from SMS" id="code-input">
+                    <span class="form__item-error" id="password-input-error"></span>
+                </div>
+            </fieldset>
+            <button type="submit" class="form__submit"></button>
+        </form>
+    </section>
+    <script src=""></script>
+</body>
+</html>

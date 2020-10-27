@@ -1,0 +1,8 @@
+.header {
+    background-color: #ebebeb;
+    max-width: 1032px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}

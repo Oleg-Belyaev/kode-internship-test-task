@@ -1,0 +1,11 @@
+.form__item {
+    font-family: inherit;
+    outline: none;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1;
+    background: none;
+    margin: 4px 0 0 15px;
+    padding: 0;
+}

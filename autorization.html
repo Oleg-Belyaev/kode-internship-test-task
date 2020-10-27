@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Приложение о покемонах">
+    <meta name="author" content="Олег Беляев">
+    <title>Авторизация</title>
+    <link rel="stylesheet" href="./pages/autorization.css">
+</head>
+<body>
+    <section class="form">
+        <form class="form__element" name="autorization" novalidate>
+            <fieldset class="form__input-container">
+                <div class="form__field">
+                    <label for="login-input" class="form__label">Login</label>
+                    <input type="text" class="form__item" name="login" required placeholder="Login" id="login-input">
+                    <span class="form__item-error" id="login-input-error"></span>
+                </div>
+                <div class="form__field">
+                    <label for="password-input" class="form__label">Password</label>
+                    <input type="password" class="form__item" name="password" required placeholder="Password" id="password-input">
+                    <span class="form__item-error" id="password-input-error"></span>
+                </div>
+            </fieldset>
+            <button type="submit" class="form__submit"></button>
+        </form>
+    </section>
+    <script src=""></script>
+</body>
+</html>

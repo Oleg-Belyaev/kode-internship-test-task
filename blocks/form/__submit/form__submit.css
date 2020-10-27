@@ -1,0 +1,17 @@
+.form__submit {
+    background-image: url(../../../images/Submit.jpg);
+    width: 96px;
+    border: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .5s linear;
+    height: 96px;
+    margin: auto;
+    display: block;
+
+}
+
+.form__submit:hover {
+    opacity: .5;
+}

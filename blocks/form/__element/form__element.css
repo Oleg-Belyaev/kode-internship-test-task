@@ -1,0 +1,11 @@
+.form__element {
+    border: 0;
+    width: 396px;
+    padding: 0 59px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+    box-sizing: border-box;
+}
